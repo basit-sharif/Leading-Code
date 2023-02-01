@@ -1,0 +1,543 @@
+.profilePicForMobile {
+  display: none;
+}
+
+.showprofilebox {
+  width: 20rem;
+  height: 13rem;
+  background-color: rgb(163, 185, 191);
+  border: 1px solid salmon;
+  border-radius: 0 3rem 2rem 2rem;
+  margin-top: -1.6rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+
+.logo {
+  margin-left: 57rem;
+}
+
+.transparent {
+  background-color: rgba(12, 1, 31, 0.181);
+  border: none;
+  border-radius: 3rem;
+  width: 30rem;
+  height: 17rem;
+  border: 0.1px solid rgba(205, 180, 180, 0.374);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  padding-top: 12rem;
+  min-height: 100vh;
+  background-image: url(../public/dog.jpg);
+  background-size: cover;
+  border-radius: 0rem 0 10rem 0rem;
+}
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 1;
+  font-family: var(--font-mono);
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 0.5rem; */
+}
+
+.description nav p {
+  position: relative;
+  margin-left: 9.4rem;
+  padding: 1rem;
+  padding-right: 3.7rem;
+  background-color: rgba(30, 20, 55, 0.775);
+  /* background-color: rgba(var(--callout-rgb), 0.5); */
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: 5rem;
+  /* border-radius: var(--border-radius); */
+  position: fixed;
+  margin-top: 0.2rem;
+}
+
+.description .profile {
+  width: 2.6rem;
+  height: 2.6rem;
+  /* background-image: url(../public/next.svg); */
+  margin-left: 2rem;
+}
+
+
+.description nav {
+  background-color: rgba(26, 21, 39, 0.942);
+  width: 100vw;
+  height: 12vh;
+  position: fixed;
+  display: flex;
+  border: 0.01px solid rgba(22, 2, 60, 0.625);
+  /* justify-content: center; */
+  /* border: 2px solid salmon; */
+  /* padding-left: 7rem; */
+  align-items: center;
+}
+
+
+.description p .navigationFirst {
+  display: flex;
+  list-style: none;
+}
+
+.description p .navigationFirst div {
+  margin-left: 2.8rem;
+  font-size: 1rem;
+  font-weight: 450;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  color: rgb(229, 226, 238);
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+
+
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  /* padding: 14rem 0; */
+}
+
+.center h2 {
+  color: rgb(229, 238, 240);
+  font-weight: 500;
+  font-size: 2.1rem;
+}
+
+.center button {
+  margin-top: 2rem;
+  padding: 11px;
+  font-size: 15.9px;
+  font-weight: bold;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  color: rgba(18, 18, 18, 0.896);
+  border-radius: 1.3rem;
+}
+.center button:active {
+  margin-top: 2rem;
+  padding: 11px;
+  font-size: 15.9px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(126, 93, 93);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  color: rgba(18, 18, 18, 0.896);
+  border-radius: 1.3rem;
+}
+.center button:hover {
+  margin-top: 2rem;
+  padding: 11px;
+  font-size: 15.9px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(126, 93, 93);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  color: rgba(18, 18, 18, 0.896);
+  border-radius: 1.3rem;
+}
+
+
+
+
+.center::before {
+  background: var(--secondary-glow);
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+}
+
+.center::after {
+  background: var(--primary-glow);
+  width: 240px;
+  height: 180px;
+  z-index: -1;
+}
+
+
+
+.logo,
+.thirteen {
+  position: relative;
+}
+
+.thirteen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  padding: 25px 10px;
+  margin-left: 16px;
+  transform: translateZ(0);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0px 2px 8px -1px #0000001a;
+}
+
+.thirteen::before,
+.thirteen::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+/* Conic Gradient Animation */
+.thirteen::before {
+  animation: 6s rotate linear infinite;
+  width: 200%;
+  height: 200%;
+  background: var(--tile-border);
+}
+
+/* Inner Square */
+.thirteen::after {
+  inset: 0;
+  padding: 1px;
+  border-radius: var(--border-radius);
+  background: linear-gradient(to bottom right,
+      rgba(var(--tile-start-rgb), 1),
+      rgba(var(--tile-end-rgb), 1));
+  background-clip: content-box;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .card:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .thirteen::before {
+    animation: none;
+  }
+
+  .card:hover span {
+    transform: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .center {
+    /* display: none; */
+    
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    /* padding: 14rem 0; */
+  }
+  
+  .profilePicForMobile {
+    display: flex;
+    border-radius: 50%;
+    margin-left: 3rem;
+  }
+
+  .transparent {
+    background-color: rgba(12, 1, 31, 0.181);
+    border: none;
+    border-radius: 3rem;
+    width: 23rem;
+    height: 17rem;
+    border: 0.1px solid rgba(205, 180, 180, 0.374);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-left: 0.1rem;
+  }
+
+  .description nav {
+    background-color: rgba(26, 21, 39, 0.942);
+    width: 100vw;
+    height: 11vh;
+    position: fixed;
+    display: flex;
+    border: 0.01px solid rgba(22, 2, 60, 0.625);
+    justify-content: center;
+    /* border: 2px solid salmon; */
+    /* padding-left: 7rem; */
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 3px;
+    width: 15rem;
+    height: 6.8rem;
+  }
+
+
+  .profilepic {
+    border-radius: 50%;
+    border: 2px solid rgb(176, 156, 194);
+    cursor: pointer;
+    display: none;
+  }
+
+  .description .profile {
+    /* width: 2.6rem; */
+    /* height: 2.6rem; */
+    display: none;
+    margin-left: 2rem;
+  }
+
+  /* .showprofilebox {
+    display: none;
+  } */
+
+
+
+
+  .description p .navigationFirst div {
+    margin-left: 0.9rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: rgb(229, 226, 238);
+  }
+
+  .description nav p {
+    display: none;
+    position: relative;
+    margin: 0;
+    padding: 1rem;
+    padding-right: 3.7rem;
+    background-color: rgba(30, 20, 55, 0.775);
+    /* background-color: rgba(var(--callout-rgb), 0.5); */
+    border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+    border-radius: 5rem;
+    /* border-radius: var(--border-radius); */
+    position: fixed;
+    margin-top: 0.9rem;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1rem;
+    min-height: 100vh;
+    /* background-image: url(../public/img1.jpg); */
+    background-image: url(../public/hor.jpg);
+    background-size: 100%;
+    background-position-x: left;
+  border-radius: 0rem 0 0rem 0rem;
+
+  }
+
+
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .card {
+    padding: 1rem 2.5rem;
+  }
+
+  .card h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .center {
+    padding: 8rem 0 6rem;
+  }
+
+  .center::before {
+    transform: none;
+    height: 300px;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .description a {
+    padding: -1rem;
+  }
+
+  .description p,
+  .description div {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .description p {
+    align-items: center;
+    inset: 0 0 auto;
+    padding: 2rem 0rem 1.4rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
+    background: rgba(7, 8, 23, 0.617);
+    background-clip: padding-box;
+    backdrop-filter: blur(24px);
+  }
+
+
+  .description div {
+    align-items: flex-end;
+    pointer-events: none;
+    inset: auto 0 0;
+    padding: 2rem;
+    height: 200px;
+    background: linear-gradient(to bottom,
+        transparent 0%,
+        rgb(var(--background-end-rgb)) 40%);
+    z-index: 1;
+  }
+
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
+
+  .logo,
+  .thirteen img {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+.profile button {
+  width: 5.7rem;
+  height: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: rgba(177, 203, 201, 0.596);
+  margin-top: 1.3rem;
+}
+
+.profile button:hover {
+  width: 5.8rem;
+  height: 1.7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgba(130, 134, 179, 0.819);
+  margin-top: 1.3rem;
+}
+
+.prname {
+  margin-bottom: 5.5rem;
+  /* margin-left: 2rem; */
+}
+
+.profilepic {
+  border-radius: 50%;
+  border: 2px solid rgb(176, 156, 194);
+  cursor: pointer;
+  /* display: none; */
+}

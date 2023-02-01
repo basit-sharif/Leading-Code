@@ -1,0 +1,333 @@
+.main {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.firstQuater {
+    width: 90%;
+    height: 18.2rem;
+    background: rgb(226, 221, 222);
+    margin: 3rem 0 0 1.5rem;
+    color: rgb(167, 162, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid blue;
+    display: flex;
+    /* overflow: auto; */
+}
+
+.main p {
+    padding: 1rem;
+}
+
+.partener {
+    /* padding: 4rem; */
+    width: 100%;
+    height: 70vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parteners {
+    padding: 3rem 3rem 2rem 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(96, 112, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parteners h2 {
+    margin-bottom: 2rem;
+}
+
+.partener div {
+    border: none;
+    margin: 1.5rem 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image {
+    border-radius: 50%;
+    border: none;
+    /* margin: 2rem 0 0 7rem; */
+}
+
+.btn {
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    background-color: rgb(187, 163, 163);
+    color: rgb(75, 75, 110);
+}
+
+.btn:hover {
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    background-color: rgb(211, 198, 198);
+    color: rgb(55, 55, 78);
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container div {
+    border: 2px solid saddlebrown;
+    border-radius: 3.2rem;
+    width: 23rem;
+    height: 25rem;
+    margin-top: 2rem;
+}
+
+.Imagee {
+    border-radius: 3rem 3rem 0 0;
+}
+
+.containers {
+    padding-top: 4rem;
+    width: 100%;
+    height: 90vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchvideo {
+    margin-top: 10px;
+    border: 1px solid whitesmoke;
+    background-color: blueviolet;
+    border-radius: 1.5rem;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+
+
+.comment {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: 60vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.comment fieldset {
+    width: 40%;
+    height: 50vh;
+    border: 2px solid salmon;
+    overflow: auto;
+    padding: 1rem;
+
+}
+
+.comment fieldset legend {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+
+.gototop {
+    width: 100%;
+    height: 20vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gototop button {
+    padding: 2px;
+    margin: auto;
+    width: 4.5rem;
+    height: 4.3rem;
+    border-radius: 50% 50% 0 0;
+    background-color: rgb(143, 170, 198);
+    border: none;
+}
+
+.logocontent {
+    height: 18.1rem;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 700px) {
+    .firstQuater {
+        width: 78%;
+        height: 70rem;
+        background: rgb(226, 221, 222);
+        margin: 3rem 0 0 1.5rem;
+        color: rgb(167, 162, 162);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 2px solid blueviolet;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .logo {
+        width: 100%;
+        height: 308px;
+        background-image: url("/cal.png");
+        background-size: cover;
+    }
+
+    .main p {
+        padding: 1rem;
+    }
+
+    .main {
+        width: 100%;
+        height: 70rem;
+        display: flex;
+        background-color: whitesmoke;
+        align-items: center;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .containers {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        height: 92rem;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+        height: 80rem;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container div {
+        border: 2px solid saddlebrown;
+        border-radius: 3.2rem;
+        width: 23rem;
+        height: 25rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .Imagee {
+        width: 100%;
+    }
+
+
+
+
+
+    .partener {
+        /* padding: 4rem; */
+        width: 100%;
+        height: 60vh;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parteners {
+        padding: 3rem 3rem 2rem 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+        height: 60vh;
+        background-color: rgb(96, 112, 112);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partener div {
+        border: none;
+        margin: 1.5rem 2rem 0 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .comment fieldset {
+        width: 45%;
+        height: 50vh;
+        border: 2px solid salmon;
+        overflow: auto;
+        padding: 1rem;
+
+    }
+
+    .comment {
+        margin-top: 3rem;
+        margin-bottom: -1rem;
+        width: 100%;
+        height: 60vh;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .gototop {
+        width: 100%;
+        height: 20vh;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logocontent {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+}
