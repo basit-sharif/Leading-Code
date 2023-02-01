@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from "../styles/about.module.css"
 import Image from "next/image"
 export default function About() {
+    // dfg
     return (
         <>
             <Head>
