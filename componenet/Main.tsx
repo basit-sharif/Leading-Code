@@ -15,7 +15,7 @@ export default function Main() {
                 </div>
                 <div className={styles.firstQuater}>
                     {/* <div className={styles.logo}></div> */}
-                    <Image className={styles.logo} alt='Video-Player' src="/v-p.png" width="390" height="290" />
+                    <Link href={"https://todo-one-ochre.vercel.app/"} ><Image className={styles.logo} alt='Video-Player' src="/v-p.png" width="390" height="290" /></Link>
                     <div className={styles.logocontent}>
                         <p>This is my First JavaScript Course Design for Absolute Bigenners and Programers. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nemo dolorum officiis, explicabo porro voluptatibus nesciunt repudiandae esse corrupti odit qui dignissimos dolor quaerat autem velit, earum aut fugit molestias illum libero assumenda a nostrum animi minus. Ab tempore tempora earum perferendis qui est commodi ducimus nisi ratione doloribus, temporibus nihil facere, quis a modi soluta. Eum consequatur aliquam ut id! Corporis, saepe eum! Blanditiis facilis nesciunt natus a iste sit dolor, distinctio placeat quisquam nulla, similique voluptates. Expedita sed, obcaecati rem magni ipsa aliquam in itaque nihil provident quos harum doloribus mollitia ea! Consectetur sit eum id optio laboriosam itaque, placeat enim saepe perspiciatis, alias deleniti, voluptate cupiditate sed et sint quia tempora provident sapiente debitis neque rem vitae. Sunt sapiente perferendis animi debitis excepturi beatae autem non atque illum quidem amet libero alias. </p>
                     </div>
